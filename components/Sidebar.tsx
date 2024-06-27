@@ -1,8 +1,9 @@
 import React from 'react'
 
-const Sidebar = () => {
+const Sidebar = ({users}: SiderbarProps) => {
+
   return (
-    <div>Sidebar</div>
+    <aside className='sm:flex hidden px-4 shadow-lg'>Sie</aside>
   )
 }
 

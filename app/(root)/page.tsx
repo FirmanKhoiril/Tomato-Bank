@@ -5,9 +5,9 @@ import React from 'react'
 const Home = () => {
     const loggedIn = "Firman"
   return (
-    <section className='home'>
+    <section className='home w-full'>
         <div className="home-content">
-            <header className="home-header">
+            <header className="home-header w-full px-4">
                 <HeaderBox 
                 type="greeting"
                 title="Welcome"

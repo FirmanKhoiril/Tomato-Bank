@@ -3,11 +3,11 @@ import DonatChart from './DonatChart'
 
 const TotalBalanceBox = ({accounts, totalBanks, totalCurrentBalance}: TTotalBalanceBox) => {
   return (
-    <section className='total-balance'>
-        <div className="total-balance-chart h-40 w-80 drop-shadow-xl">
+    <section className='total-balance px-4 py-2 w-full  shadow-md'>
+        <div className="total-balance-chart w-full h-40">
             <DonatChart accounts={accounts} />
         </div>
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-4">
             <h2 className="header-2">
                 {totalBanks} Bank Accounts
             </h2>
